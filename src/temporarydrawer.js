@@ -49,21 +49,21 @@ export default function TemporaryDrawer() {
       <List>
         <Link to="/" style={{textDecoration: "none", color:"black"}}>
           <ListItem button key="Página Inicial">
-            <ListItemIcon><FiberManualRecordIcon/></ListItemIcon>
-            <ListItemText primary="Página Inicial" />
+            <ListItemIcon><FiberManualRecordIcon style={{color:"black"}}/></ListItemIcon>
+            <ListItemText primary="Acervo Fotogramétrico do Patrimônio Edificado Cearense - AFPEC" />
           </ListItem>
         </Link>
 
-        <Link to="/PSCIP" style={{textDecoration: "none", color:"black"}}>
+        <Link to="/oprojeto" style={{textDecoration: "none", color:"black"}}>
           <ListItem button key="Projeto de Segurança Contra Incêndio">
-            <ListItemIcon><FiberManualRecordIcon/></ListItemIcon>
-            <ListItemText primary="Projeto de Segurança Contra Incêndio" />
+            <ListItemIcon><FiberManualRecordIcon style={{color:"black"}}/></ListItemIcon>
+            <ListItemText primary="O projeto" />
           </ListItem>
         </Link>
           
         <Link to="/contato" style={{textDecoration: "none", color:"black"}}>
           <ListItem button key="Contato">
-            <ListItemIcon><FiberManualRecordIcon/></ListItemIcon>
+            <ListItemIcon><FiberManualRecordIcon style={{color:"black"}}/></ListItemIcon>
             <ListItemText primary="Contato" />
           </ListItem>
         </Link>

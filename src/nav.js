@@ -17,7 +17,7 @@ class Nav extends React.Component {
     return(
       <div>
           <div style={{flexGrow: 1}}>
-        <AppBar position="static">
+        <AppBar position="static" style={{background: "black"}}>
           <Toolbar variant="dense">
               <TemporaryDrawer/>
             <Typography variant="h6" color="inherit">

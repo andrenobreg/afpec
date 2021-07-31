@@ -1,5 +1,6 @@
 import React from 'react'
 import Nav from './nav.js'
+import foto from './img/FOTO20.jpg'
 class Contato extends React.Component {
     constructor(props){
       super(props)
@@ -10,7 +11,7 @@ class Contato extends React.Component {
     render(){
      
       return(
-        <div>
+        <div style={{backgroundImage: 'url(' + foto + ')', backgroundSize: 'cover', height:"100vh"}}>
             <Nav texto="Contato"/>
             contato
         </div>
